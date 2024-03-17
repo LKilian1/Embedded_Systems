@@ -1,5 +1,5 @@
 # STM32 Position Determination with MEMS Sensors
-###Project Overview
+### Project Overview
 This project focuses on creating a system for relative position determination using MEMS (Micro-Electro-Mechanical Systems) sensors. By integrating acceleration and magnetic field measurements, we aim to monitor and analyze physical parameters with modern technology.
 
 ### Components
