@@ -1,43 +1,43 @@
-# STM32 Position Determination with MEMS Sensors
-### Project Overview
-This project focuses on creating a system for relative position determination using MEMS (Micro-Electro-Mechanical Systems) sensors. By integrating acceleration and magnetic field measurements, we aim to monitor and analyze physical parameters with modern technology.
+# STM32 Positionsbestimmung mit MEM - Sensoren
+### Projektübersicht
+Im Mittelpunkt dieses Projekts steht die Entwicklung eines Systems zur relativen Positionsbestimmung mit MEMS-Sensoren (Micro-Electro-Mechanical Systems). Durch die Integration von Beschleunigungs- und Magnetfeldmessungen sollen physikalische Parameter mit moderner Technologie überwacht und analysiert werden.
 
-### Structure
-There are two folders in the repository.
-In the core folder is the main.c function for this project.
-The drivers folder contains the libraries for the two sensors.
-The project was created with the help of STMicroelectronics software.
-The handling of the code can be understood via the referenced document.
+### Struktur
+Es gibt zwei Ordner im Repository.
+Im Ordner core befindet sich die Funktion main.c für dieses Projekt.
+Der Ordner drivers enthält die Bibliotheken für die beiden Sensoren.
+Das Projekt wurde mit Hilfe der Software von STMicroelectronics erstellt.
+Die Handhabung des Codes kann anhand des referenzierten Dokuments nachvollzogen werden.
 
-### Components
-STM32 Nucleo-144 Development Board: The core of our project, offering a robust platform for real-time sensor data processing.
-Magnetometer (LIS2MDL) and Accelerometer (LIS2DW12): Essential sensors for capturing magnetic orientations and acceleration values.
-I2C Communication: Ensures efficient data transfer between the STM32 board and the sensors.
-Setup and Configuration
-Hardware Setup
-Follow the schematics in the Embedded_Systems_new.pdf to connect the sensors to the STM32 Nucleo-144 board.
+### Komponenten
+STM32 Nucleo-144 Entwicklungsboard: Das Herzstück des Projekts, das eine robuste Plattform für die Verarbeitung von Sensordaten in Echtzeit bietet.
+Magnetometer (LIS2MDL) und Beschleunigungsmesser (LIS2DW12): Unverzichtbare Sensoren für die Erfassung von magnetischen Orientierungen und Beschleunigungswerten.
+I2C-Kommunikation: Gewährleistet eine effiziente Datenübertragung zwischen dem STM32-Board und den Sensoren.
+Einrichtung und Konfiguration
+Hardware-Einrichtung
+Folgen Sie den Schaltplänen im Dokument ES_leo_kilian.pdf, um die Sensoren an das STM32 Nucleo-144 Board anzuschließen.
 
-### Software Requirements
-STM32CubeIDE and STM32CubeMX: For project configuration and development.
-MEMS Software Packages: Includes libraries for sensor integration.
-Implementation
-Data Acquisition
-Sensor data is acquired through I2C, processed, and used to determine the device's relative position.
+### Software Anforderungen
+STM32CubeIDE und STM32CubeMX: Für die Projektkonfiguration und -entwicklung.
+MEMS-Software-Pakete: Enthält Bibliotheken für die Sensorintegration.
+Implementierung
+Datenerfassung
+Sensordaten werden über I2C erfasst, verarbeitet und zur Bestimmung der relativen Position des Geräts verwendet.
 
-### Position Determination
-Combines sensor data using a Kalman Filter algorithm for accurate position estimation.
+### Positionsbestimmung
+Kombiniert Sensordaten mit Hilfe eines Kalman-Filter-Algorithmus für eine genaue Positionsschätzung.Kombiniert Sensordaten mit Hilfe eines Kalman-Filter-Algorithmus für eine genaue Positionsschätzung.
 
-### Challenges and Solutions
-Software and hardware integration challenges were addressed through detailed configuration and testing.
-A Kalman Filter approach was adopted to compensate for sensor inaccuracies.
-Future Directions
-Enhancements will focus on improving position accuracy through additional sensor integration and algorithm optimization.
+### Herausforderungen und Lösungen
+Die Herausforderungen der Software- und Hardware-Integration wurden durch detaillierte Konfiguration und Tests bewältigt.
+Ein Kalman-Filter-Ansatz wurde gewählt, um Ungenauigkeiten der Sensoren zu kompensieren.
+Zukünftige Richtungen
+Verbesserungen werden sich auf die Verbesserung der Positionsgenauigkeit durch zusätzliche Sensorintegration und Algorithmusoptimierung konzentrieren.
 
 ### Appendix
-Includes detailed information on the workstation setup, interface functions, sensor configuration registers, and a low-level function for register configuration.
+Enthält detaillierte Informationen über die Einrichtung der Workstation, Schnittstellenfunktionen, Sensorkonfigurationsregister und eine Low-Level-Funktion zur Registerkonfiguration.
 
-### References
-Refer to ES_Leo_kilian.pdf for a comprehensive literature review and appendix material.
+### Referenz 
+Eine ausführliche Literaturübersicht und Anhänge finden Sie in ES_Leo_kilian.pdf.
 
 
 
