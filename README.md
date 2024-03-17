@@ -2,6 +2,11 @@
 ### Project Overview
 This project focuses on creating a system for relative position determination using MEMS (Micro-Electro-Mechanical Systems) sensors. By integrating acceleration and magnetic field measurements, we aim to monitor and analyze physical parameters with modern technology.
 
+### Structure
+There are two folders in the repository.
+In the core folder is the main.c function for this project.
+The drivers folder contains the libraries for the two sensors.
+
 ### Components
 STM32 Nucleo-144 Development Board: The core of our project, offering a robust platform for real-time sensor data processing.
 Magnetometer (LIS2MDL) and Accelerometer (LIS2DW12): Essential sensors for capturing magnetic orientations and acceleration values.
@@ -30,7 +35,7 @@ Enhancements will focus on improving position accuracy through additional sensor
 Includes detailed information on the workstation setup, interface functions, sensor configuration registers, and a low-level function for register configuration.
 
 ### References
-Refer to Embedded_Systems_new.pdf for a comprehensive literature review and appendix material.
+Refer to ES_Leo_kilian.pdf for a comprehensive literature review and appendix material.
 
 
 
