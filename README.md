@@ -6,6 +6,8 @@ This project focuses on creating a system for relative position determination us
 There are two folders in the repository.
 In the core folder is the main.c function for this project.
 The drivers folder contains the libraries for the two sensors.
+The project was created with the help of STMicroelectronics software.
+The handling of the code can be understood via the referenced document.
 
 ### Components
 STM32 Nucleo-144 Development Board: The core of our project, offering a robust platform for real-time sensor data processing.
